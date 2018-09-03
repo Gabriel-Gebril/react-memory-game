@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    height: 60px;
+    align-items: center;
+    padding: 0 0 0 10px;
+    color: white;
+    background-color:steelblue;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.nav ul{
+    padding : 0;
+    list-style: none;
+    display: flex;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* .nav ul:not(.left) li{
+    margin-left: 25px;
+} */
+
+li a {
+    padding: 20px 10px;
+    padding-top:100%;
+    color: white;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
